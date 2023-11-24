@@ -15,7 +15,7 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi, I am a trader. Hi, I am a Pine Coder. Hi, I am an Inventor. Welcome to my blog🎉',
 
-  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
+  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'blackcat1402', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || ' This cat is an esteemed coding influencer on TradingView, commanding an audience of over 8,000 followers. This cat is proficient in developing quantitative trading algorithms across a diverse range of programming languages, a skill that has garnered widespread acclaim. Consistently, This cat share invaluable trading strategies and coding insights. Regardless of whether you are a novice or a veteran in the field, you can derive an abundance of valuable information and inspiration from my blog.', // 作者简介
