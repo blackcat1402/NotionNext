@@ -13,7 +13,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi, I am a trader, Hi, I am a Pine Coder, Hi, I am an Inventor, Welcome to my blog🎉',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Jesse: The leaders of today may not be the leaders of two years from no, Jesse: It is much easier to watch a few than many, Jesse: Big movements take time to develop, Jesse: Wishful thinking must be banished, Jesse: Never average losses, Jesse: Markets are never wrong – opinions often are, Jesse: Never buy a stock because it has had a big decline from its previous high, Jesse: Never sell a stock because it seems high-priced, Welcome to the blog of blackcat1402 🎉',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
